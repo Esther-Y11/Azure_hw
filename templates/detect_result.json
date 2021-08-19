@@ -1,0 +1,38 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "link",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "output",
+        "weight": "bold",
+        "size": "xxs"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "text",
+            "text": "title"
+          }
+        ]
+      }
+    ]
+  }
+}
